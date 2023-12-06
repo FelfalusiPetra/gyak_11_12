@@ -24,6 +24,11 @@
             <div class="gomb kattintható">Vissza</div>
             <div class="gomb kattintható">Előre</div>
         </div>
+        <div id="válaszok">
+            <div id="válasz1" class="kerdes kattintható">Válasz 1</div>
+            <div id="válasz2" class="kerdes kattintható jó">Válasz 2</div>
+            <div id="válasz3" class="kerdes kattintható rossz">Válasz 3</div>
+        </div>
     </div>
     <style>
         div{
@@ -59,8 +64,13 @@
             overflow: hidden;
             flex-shrink: 0;
         }
-        .gomp{
-
+        .gomb{
+            padding: 20px;
+            width: 80px;
+        }
+        .kattintható:hover{
+            background-color: fuchsia;
+            color: white;
         }
         .kerdes{
 
